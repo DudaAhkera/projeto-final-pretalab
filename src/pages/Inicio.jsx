@@ -1,7 +1,7 @@
 import { Header } from "../components/Header"
 import homeImg from '../assets/home.svg'
 import { Alien, BracketsCurly, AddressBook } from 'phosphor-react'
-import Styles from '../Styles/pages/Inicio.module.css'
+import Styles from '../Styles/Pages/Inicio.module.css'
 
 function Inicio () {
     return(
