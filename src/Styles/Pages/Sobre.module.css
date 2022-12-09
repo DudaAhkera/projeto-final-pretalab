@@ -1,0 +1,18 @@
+.squareContainer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.textCard {
+    font-size: 20px;
+    color: #474a51;
+    text-align: justify;
+    
+}
+
+.imgCard {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+
+}
