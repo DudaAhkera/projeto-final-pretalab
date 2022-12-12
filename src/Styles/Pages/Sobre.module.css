@@ -1,18 +1,66 @@
 .squareContainer {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-.textCard {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
     font-size: 20px;
     color: #474a51;
-    text-align: justify;
+}
+
+.Card {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.textCard {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fcf7f2;
     
 }
 
 .imgCard {
     width: 200px;
-    height: auto;
-    padding: 10px;
+    height: 200px;
+    flex-basis: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffdaaf;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
+}
+
+@media only screen and (min-width: 768px) {
+    .Card {
+        flex-direction: row;
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    .squareContainer .textCard{
+        height: 100%
+    }
+    .squareContainer .imgCard{
+        height: 100%
+    }
+    .Card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
 
 }
+
