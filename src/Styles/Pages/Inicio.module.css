@@ -9,6 +9,7 @@
   
   .cardContainer {
   width: 100%;
+  text-align: center;
   }
   
   .cardTitle {
@@ -19,6 +20,7 @@
   
   .cardText {
   font-size: 1.2rem;
+  text-align: center;
   color: #474a51;
   }
   
