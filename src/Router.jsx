@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Inicio from "./pages/Inicio"
+import { Inicio } from "./pages/Inicio"
 import Contato from "./pages/Contato"
 import Portfolio from "./pages/Portfolio"
 import Sobre from "./pages/Sobre"
