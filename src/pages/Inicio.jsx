@@ -11,12 +11,12 @@ function Inicio () {
                 <div className={styles.cardContainer}>
                     <Alien size={150} color="#686AAC" weight="thin" />
                     <h2 className={styles.cardTitle}>Vida</h2>
-                    <p className={styles.cardText}>Eu conto um pouquinho sobre mim, minha formação, a história da minha migração de carreira. </p>
+                    <p className={styles.cardText}>Eu conto um pouquinho sobre mim, minha formação, a história da minha migração de carreira, como tudo comecou. </p>
                 </div>
                 <div className={styles.cardContainer}>
                     <BracketsCurly size={150} color="#686AAC" weight="thin" />
                     <h2 className={styles.cardTitle}>Código</h2>
-                    <p className={styles.cardText}>Mostro meu portfólio. O que aprendi até o momento enquanto estudo programação. </p>
+                    <p className={styles.cardText}>Mostro meu portfólio. O que aprendi até o momento enquanto estudo programação e o que mais curti fazer até agora. </p>
                 </div>
                 <div className={styles.cardContainer}>
                     <AddressBook size={150} color="#686AAC" weight="thin" />
