@@ -9,8 +9,6 @@
   
   .cardContainer {
   width: 100%;
-  justify-content: center;
-  flex-direction: column;
 
   }
   
@@ -22,13 +20,13 @@
   
   .cardText {
   font-size: 1.2rem;
-  text-align: center;
   color: #474a51;
   }
   
   @media(max-width: 765px) {
   .homeContainer {
     display: flex;
+    flex-direction: column;
   
   }
 }
