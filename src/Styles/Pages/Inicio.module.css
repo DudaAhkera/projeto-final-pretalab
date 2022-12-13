@@ -9,6 +9,8 @@
   
   .cardContainer {
   width: 100%;
+  justify-content: center;
+  flex-direction: column;
 
   }
   
@@ -27,6 +29,6 @@
   @media(max-width: 765px) {
   .homeContainer {
     display: flex;
-    flex-direction: column;
+  
   }
 }
