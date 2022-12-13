@@ -1,7 +1,7 @@
 .homeContainer {
   padding: 10rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 4rem;
   text-align: center;
