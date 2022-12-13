@@ -9,7 +9,7 @@
   
   .cardContainer {
   width: 100%;
-  text-align: center;
+
   }
   
   .cardTitle {
@@ -26,6 +26,7 @@
   
   @media(max-width: 765px) {
   .homeContainer {
+    display: flex;
     flex-direction: column;
   }
 }
