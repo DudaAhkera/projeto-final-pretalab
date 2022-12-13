@@ -2,7 +2,7 @@ import { Alien, BracketsCurly, AddressBook } from 'phosphor-react'
 import { Header } from '../components/Header'
 import homeImg from '../assets/home.svg'
 
-import styles from '../styles/pages/inicio.module.css'
+import styles from '../styles/Pages/Inicio.module.css'
 
 export function Inicio() {
   return (
